@@ -1,81 +1,28 @@
-# ==========================
-# PYTHON / FASTAPI
-# ==========================
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$.py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environment
-.venv/
-venv/
-ENV/
-env/
-env.bak/
-venv.bak/
-
-# ==========================
-# PROJECT FILES
-# ==========================
-
-# Environment variables
+# ENV
 .env
 .env.*
 
-# Logs
-*.log
+# Keys
+*.pem
+*.key
+*.crt
 
-# Local DB / cache
-*.db
+# DB
 *.sqlite
+*.db
+*.sql
 
-# ==========================
-# IDE / EDITOR
-# ==========================
-
-# PyCharm
+# IDE
 .idea/
-*.iml
-
-# VSCode
 .vscode/
 
-# ==========================
-# OS FILES
-# ==========================
-.DS_Store
-Thumbs.db
+# Python
+__pycache__/
+*.pyc
 
-# ==========================
-# OTHER
-# ==========================
+# Venv
+.venv/
+venv/
 
-# Python dotenv
-.envrc
-
-# Backup files
-*.bak
-*.swp
-*.swo
+# Logs
+*.log
