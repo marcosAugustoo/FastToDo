@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from app.core.config import settings
+from app_p.core.config import settings
 from beanie import init_beanie
 from motor.motor_asyncio import AsyncIOMotorClient
 from contextlib import asynccontextmanager
-from app.models.user_model import User
-from app.api.api_v1.routers import router
+from app_p.models.user_model import User
+from app_p.api.api_v1.routers import router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
